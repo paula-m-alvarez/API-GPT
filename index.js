@@ -10,7 +10,7 @@ async function getCompletion(){
         },
         body: JSON.stringify({
             model: 'text-davinci-003',
-            prompt: 'Necesito una receta para cocinar budin',
+            prompt: 'Best NBA player',
             max_tokens: 50,
         })
     })
